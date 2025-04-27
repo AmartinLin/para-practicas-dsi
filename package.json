@@ -1,0 +1,39 @@
+{
+  "name": "para-practicas-dsi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/modi/Operations.js\"",
+    "doc": "typedoc",
+    "test": "vitest run",
+    "onetest": "vitest run test/modi",
+    "testmodi": "vitest run test/modi",
+    "testpract7": "vitest run test/practica7modi",
+    "coverage": "vitest run --coverage"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmartinLin/para-practicas-dsi/issues"
+  },
+  "homepage": "https://github.com/AmartinLin/para-practicas-dsi#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@types/express": "^5.0.1",
+    "@vitest/coverage-v8": "^3.1.2",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-tsdoc": "^0.4.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "typedoc": "^0.28.3",
+    "typescript-eslint": "^8.31.0",
+    "vitest": "^3.1.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
